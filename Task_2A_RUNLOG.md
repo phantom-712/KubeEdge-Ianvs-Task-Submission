@@ -975,18 +975,6 @@ This does not affect results because all inference runs through the cache. For l
 
 All 5 initial blocking issues were resolved through code modifications. No issues remain unresolved.
 
-### Time Investment
-
-| Phase | Time Spent |
-|-------|------------|
-| Repository setup and exploration | 45 minutes |
-| Dependency installation and troubleshooting | 1.5 hours |
-| Code fixes and debugging | 2 hours |
-| Configuration adjustments | 45 minutes |
-| Benchmark execution and validation | 30 minutes |
-| Documentation (this RUNLOG) | 1.5 hours |
-| Total | Approximately 6.5 hours |
-
 ### Recommendations for Future Work
 
 1. **Improve Windows Compatibility:** Add conditional imports to __init__.py and edge_model.py upstream so Windows users can run out-of-the-box.
